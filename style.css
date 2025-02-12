@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: white;
+  font-family: "Ubuntu", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.mainContainer{
+    /* background: content-box radial-gradient(#023b67, #000000); */
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+}
+header{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.parentNavBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbox {
+  background: rgba(17, 27, 43, 0.707);
+  width: 80%;
+  height: 70px;
+  border-radius: 50px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+    width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.clubName{
+    font-size: 25px;
+    font-weight: 700;
+    color: #198ee7;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+#loginButton {
+  background-color: rgb(233, 233, 233);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-family: "Ubuntu", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(22, 22, 22);
+}
+.pages{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#firstPage{
+    background: content-box radial-gradient(#023b67, #000000);
+}
+#firstPage h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+#firstPage h2{
+    font-size: 50px;
+    font-weight: 500;
+}
+#firstPage p{
+    color: grey;
+}
+#getStartedButton{
+    background: linear-gradient(to right,#0c8ced, #562bcd);
+    color: white;
+    border: none;
+    box-shadow: rgba(6, 107, 208, 0.394) 0px 4px 16px, rgba(6, 107, 208, 0.375) 0px 8px 24px, rgba(6, 107, 208, 0.406) 0px 16px 56px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    font-family: "Ubuntu", serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 30px;
+}
+#secondPage{
+    background: content-box linear-gradient(to top,#023b67, #000000, #000000);
+}

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 768px){
+    header{
+        height: 150px;
+    }
+    .navbox{
+        height: 60px;
+    }
+    a, #loginButton{
+        display: none;
+    }
+    #clubName1,a:nth-child(6),a:nth-child(7){
+        display: block;
+    }
+    #clubName2{
+        display: block;
+        visibility: hidden;
+    }
+    li{
+        justify-content: right;
+    }
+    li a{
+        margin-right: 20px;
+    }
+    .pages{
+        gap: 20px;
+    }
+    #firstPage h1{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    #firstPage h2{
+        padding: 0px 50px;
+        font-size: 35px;
+        font-weight: 500;
+    }
+    #firstPage p{
+        color: grey;
+        font-size: 10px;
+        padding: 0px 50px;
+    }
+    #getStartedButton{
+        padding: 10px 40px;
+        font-size: 20px;
+    }
+}
