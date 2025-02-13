@@ -10,12 +10,18 @@
     }
     #clubName1,a:nth-child(6),a:nth-child(7){
         display: block;
+        z-index: 999;
     }
     #clubName2{
         display: block;
         visibility: hidden;
     }
+    ul li:nth-child(1){
+        display: block;
+        padding-left: 20px;
+    }
     li{
+        width: 50%;
         justify-content: right;
     }
     li a{

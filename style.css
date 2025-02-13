@@ -30,7 +30,7 @@ header{
   align-items: center;
 }
 .navbox {
-  background: rgba(17, 27, 43, 0.707);
+  background: rgba(71, 129, 222, 0.323);
   width: 80%;
   height: 70px;
   border-radius: 50px;
@@ -51,7 +51,7 @@ ul{
     width: 100%;
     display: flex;
     flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 li {
@@ -62,10 +62,17 @@ li {
   justify-content: space-around;
   align-items: center;
 }
+ul li:nth-child(1){
+    display: none;
+}
 .clubName{
     font-size: 25px;
     font-weight: 700;
-    color: #198ee7;
+    color: #19ade7;
+    
+}
+#clubName1{
+    display: none;
 }
 a {
   color: white;
